@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('clone repo'){
             steps{
-                git  credentialsID: 'Demoproject' , url:"https://github.com/ancysnovee/demojenkin.git",branch:"main"
+                git  credentialsId: 'Demoproject' , url:"https://github.com/ancysnovee/demojenkin.git",branch:"main"
             }
             
         }
