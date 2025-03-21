@@ -1,6 +1,6 @@
-stack = []
+Stack = []
 def push(num):
-    stack.append(num)
+    Stack.append(num)
 
 push(10)
 push(23)
