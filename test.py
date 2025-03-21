@@ -1,4 +1,4 @@
 from stack import Stack
 
 def test_stack():
-    assert len(stack)==3
+    assert len(Stack)==3
